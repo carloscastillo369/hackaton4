@@ -376,3 +376,135 @@ fieldset input {
 .precio img {
     margin-left: 65px;
 }
+
+/*seccion6*/
+
+.secciones:nth-child(6) {
+    background: green;
+    height:800px;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    background: yellow;
+}
+
+.imagen a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 40%;
+    font-size: 15px;
+}
+
+.division {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 100px 250px;
+    gap: 40px;
+    line-height: 25px;
+}
+
+.division h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.division p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fondo {
+    width: 200px;
+    height: 140px;
+    background-image: url(../images/pareja.jpg);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+
+.parts:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 4px solid green;
+}
+
+
+.parts:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 4px solid green;
+}
+
+
+.parts:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 4px solid green;
+}
+
+.parts:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 4px solid green;
+}
+
+
+.parts:nth-child(5) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 4px solid green;
+}
+
+
+.parts:nth-child(6) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 4px solid green;
+}
+
+
+footer {
+    padding: 0 250px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none; 
+}
+
+footer a {
+    margin-left: 20px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: justify;
+}
